@@ -1,5 +1,14 @@
 @import './vendor/reset';
 
+header {
+    background-color: rgb(243, 241, 233);
+    background-image: url('../images/fitness&nutrition.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 90px;
+
+}
+
 footer {
     display: flex;
     align-items: center;

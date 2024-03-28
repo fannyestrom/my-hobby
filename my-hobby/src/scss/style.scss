@@ -1,0 +1,20 @@
+@import './vendor/reset';
+
+footer {
+    display: flex;
+    align-items: center;
+    background-color: rgb(243, 241, 233);
+    height: 35px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+
+    p {
+        padding-left: 10px;
+        font-size: 0.8rem;
+
+        .word-spacing {
+            margin-left: 7px;
+        }
+    }
+}

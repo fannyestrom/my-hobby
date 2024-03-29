@@ -15,6 +15,7 @@ main {
     display: flex;
     flex-wrap: wrap;
     height: 100vh;
+    font-size: 1.1rem;
 
     .content-area {
         flex-basis: calc(33.33%);

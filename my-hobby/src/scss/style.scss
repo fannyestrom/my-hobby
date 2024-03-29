@@ -1,12 +1,41 @@
 @import './vendor/reset';
 
-header {
+body {
     background-color: rgb(243, 241, 233);
+}
+
+header {
     background-image: url('../images/fitness&nutrition.png');
     background-size: contain;
     background-repeat: no-repeat;
     height: 90px;
+}
 
+main {
+    display: flex;
+    flex-wrap: wrap;
+
+    .content-area {
+        flex-basis: calc(33.33%);
+        position: relative;
+        overflow: hidden;
+        border: 1px solid #887d753d;
+        min-width: 200px; 
+        min-height: 200px; 
+        transition: all 0.3s ease;
+        padding: 10px;
+    }
+
+    .content-area:hover {
+        width: 400px;
+        height: auto;
+    }
+
+    .with-image {
+        background-image: url('../images/greg-rosenke-8DcwvlVXIVw-unsplash.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
 }
 
 footer {
